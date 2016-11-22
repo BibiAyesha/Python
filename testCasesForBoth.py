@@ -7,7 +7,6 @@ class PrimesTestCase(unittest.TestCase):
     """Tests for `unhash.py`."""
 
     def test_unHash_forOutput1(self):
-        """Is five successfully determined to be prime?"""
         num = 24590208964559
         expected = "acgilmwu"
         self.assertEqual(expected, unHash(num)) 
